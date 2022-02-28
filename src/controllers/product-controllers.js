@@ -91,5 +91,16 @@ exports.put = (req, res, next) => {
 };
 
 exports.delete = (req, res, next) => {
-  res.status(200).send(req.body);
+  Product
+  .findOneAndRemove(req.body.id)
+  .then(x => {
+    res.status(200).send({
+      message: 'Product successfully removed!'
+    });
+  }).catch(e => {
+    res.status(400).send({
+      messa: 'Failed to remove the product!',
+      data: e
+    });
+  });
 };
