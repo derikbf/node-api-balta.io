@@ -11,7 +11,7 @@ const schema = new Schema({
   },
   slug: {
     type: String,
-    required: true,
+    required: [true, "Slug - Required Field"],
     trim: true,
     index: true,
     unique: true
