@@ -7,7 +7,6 @@ require('dotenv').config();
 const app = express();
 const router = express.Router();
 
-
 // Connect BD
 mongoose.connect(`mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@balta-io.52wjk.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`);
 
