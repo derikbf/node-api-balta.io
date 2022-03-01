@@ -12,6 +12,7 @@ mongoose.connect(`mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@ba
 
 // Loading Model
 const Product = require('./models/product')
+const Customer = require('./models/customer')
 
 // Loading route
 const indexRoute = require('./routes/index-route')
