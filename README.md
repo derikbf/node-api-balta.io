@@ -1,7 +1,7 @@
 ## Curso: Criando APIs com NodeJs e MongoDB - YouTube - Balta.io
 <img alt="NodeJS" src="https://img.shields.io/badge/node.js-%2343853D.svg?&style=for-the-badge&logo=node.js&logoColor=white"/>
 
-O gravado e disponibilizado pelo canal no YouTube - Balta.io ***https://www.youtube.com/c/baltaio/playlists***
+O curdo foi gravado e disponibilizado pelo canal no YouTube - Balta.io ***https://www.youtube.com/c/baltaio/playlists***
 
 ![YouTube](https://uploaddeimagens.com.br/images/003/748/913/full/balta-io.png)
 
