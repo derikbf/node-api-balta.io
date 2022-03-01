@@ -1,7 +1,5 @@
 'use strict'
 
-const mongoose = require('mongoose');
-const Product = mongoose.model('Product');
 const ValidationContract = require('../validators/fluent-validator')
 const repository = require('../repositories/product-repository')
 
@@ -63,7 +61,7 @@ exports.post = async (req, res, next) => {
   try {
     await repository.create(req.body);
     res.status(201).send({
-        message: "Product created"});
+        message: "Product registered successfully!"});
     } catch (e) {
       res.status(500).send({
         message: 'Failed to process request!'
