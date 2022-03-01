@@ -64,7 +64,7 @@ exports.post = async (req, res, next) => {
   // INICIO - CADASTRO DE IMAGEM PELO AZURE
   // try {
   //   // cria o blob service
-  //   const blobSvc = azure.createBlobService(config.ContainerConnectionString);
+  //   const blobSvc = azure.createBlobService(config.containerConnectionString);
 
   //   let filename = guid.raw().toString() + '.jpg';
   //   let rawdata = req.body.image;
